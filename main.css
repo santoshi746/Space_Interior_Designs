@@ -87,7 +87,6 @@ body{
 /*Login*/
 .modal_wrapper .modal-content {
     background-color: goldenrod;
-    opacity: 0.5;
 }
 .modal_wrapper .btn-close{
     position: absolute;
