@@ -76,3 +76,40 @@ body{
         width: 380;
     }
 }
+#contact{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.bi{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+}
+.bi-youtube{
+    background-color: red;
+}
+.bi-pinterest{
+    background-color: red;
+}
+.bi-instagram{
+    background-color: palevioletred;
+}
+.bi-twitter{
+    background-color: aquamarine;
+}
+.bi-facebook{
+    background-color: rgb(41, 160, 207);
+}
+.bi-envelope-open-fill{
+    background-color: red;
+}
+.bi-whatsapp{
+    background-color: green;
+}
+.bi-telephone-fill{
+    background-color: green;
+}
