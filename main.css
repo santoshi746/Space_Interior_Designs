@@ -7,6 +7,25 @@
     border-radius: 100%;
 }
 
+form #icon{
+    color: goldenrod;
+    position: fixed;
+    translate: 570px 0px;
+}
+form #icon2{
+    color: goldenrod;
+    position: fixed;
+    translate: 570px -50px;
+}
+.icon{
+    width: 150px;
+    height: 40px;
+}
+#name{
+    margin: 2px;
+    border-bottom: 2px solid goldenrod;
+    border-top: 2px solid goldenrod;
+}
 .nav-item>a:hover{
     color: rgb(255, 184, 4) !important;
     text-decoration: underline;
@@ -87,6 +106,7 @@ body{
 /*Login*/
 .modal_wrapper .modal-content {
     background-color: goldenrod;
+   
 }
 .modal_wrapper .btn-close{
     position: absolute;
@@ -158,7 +178,9 @@ body{
     .carousel-caption h5{
         font-size: 17px;
     }
-    
+    .icon{
+        width: 200px;
+    }
     .carousel-caption p{
         width: 100%;
         line-height: 1.6;
@@ -169,5 +191,16 @@ body{
     }
     .card{
         margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:450px){
+    form #icon{
+        position: fixed;
+        translate: 250px 0px;
+    }
+    form #icon2{
+        position: fixed;
+        translate: 250px -45px;
     }
 }
