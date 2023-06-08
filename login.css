@@ -1,0 +1,76 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2018/07/06/08/47/stained-glass-3519999_1280.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+.box{
+    background-color: rgba(0,0,0);
+    width: 370px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+    border-radius: 40px 5px;
+    overflow: hidden;
+}
+.box::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 370px;
+    height: 450px;
+    background: linear-gradient(60deg, transparent, rgb(172, 170, 27),rgb(172, 170, 27));
+    transform-origin: bottom right;
+    animation: anim 5s linear infinite;
+}
+.box::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 370px;
+    height: 450px;
+    background: linear-gradient(60deg, transparent, rgb(172, 170, 27),rgb(172, 170, 27));
+    transform-origin: bottom right;
+    animation: anim 5s linear infinite;
+    animation-delay: -3s;
+}
+@keyframes anim{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+form{
+    position: absolute;
+    inset: 2px;
+    border-radius: 50px 5px;
+    background-color: black;
+    z-index: 10;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    color: goldenrod;
+}
+input{
+    background-color: black !important;
+    border: 2px solid goldenrod !important;
+    border-radius: 10px !important;
+    margin: 2px;
+}
+input:focus{
+    background-color: rgba(0,0,0,0.5) !important;
+    color: white !important;
+}
+@media only screen and (max-width: 450px){
+    .box{
+        width : 300px;
+    }
+}
+
