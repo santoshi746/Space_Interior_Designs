@@ -10,7 +10,7 @@
 form #icon{
     color: goldenrod;
     position: fixed;
-    translate: 570px 0px;
+    translate: 570px -50px;
 }
 form #icon2{
     color: goldenrod;
@@ -197,7 +197,7 @@ body{
 @media only screen and (max-width:450px){
     form #icon{
         position: fixed;
-        translate: 250px 0px;
+        translate: 280px -45px;
     }
     form #icon2{
         position: fixed;
