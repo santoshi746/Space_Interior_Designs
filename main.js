@@ -19,7 +19,6 @@ function login(){
     }
 }
 function show_hidden(){
-    // event.preventDefault();
     var password = document.getElementById("Password");
     var icon = document.getElementById("icon");
     if(password.type =="password"){
@@ -31,7 +30,6 @@ function show_hidden(){
     }
 }
 function show_hidden2(){
-    // event.preventDefault();
     var pswd = document.getElementById("pswd");
     var icon2 = document.getElementById("icon2");
     if(pswd.type =="password"){
