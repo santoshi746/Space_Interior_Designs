@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://cdn.pixabay.com/photo/2018/02/23/12/38/flower-3175428_640.jpg");
+    background-image: url("https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178345.jpg?size=626&ext=jpg&ga=GA1.2.24084656.1676008246&semt=ais");
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
@@ -10,7 +10,7 @@ body{
 .box{
     background-color: rgba(0,0,0);
     width: 370px;
-    height: 450px;
+    height: 350px;
     margin: auto;
     position: relative;
     border-radius: 40px 5px;
@@ -22,7 +22,7 @@ body{
     top: -50%;
     left: -50%;
     width: 370px;
-    height: 450px;
+    height: 350px;
     background: linear-gradient(60deg, transparent, rgb(172, 170, 27),rgb(172, 170, 27));
     transform-origin: bottom right;
     animation: anim 5s linear infinite;
@@ -33,7 +33,7 @@ body{
     top: -50%;
     left: -50%;
     width: 370px;
-    height: 450px;
+    height: 350px;
     background: linear-gradient(60deg, transparent, rgb(172, 170, 27),rgb(172, 170, 27));
     transform-origin: bottom right;
     animation: anim 5s linear infinite;
@@ -62,7 +62,7 @@ input{
     background-color: black !important;
     border: 2px solid goldenrod !important;
     border-radius: 10px !important;
-    margin: 2px;
+    margin: 10px 2px;
 }
 input:focus{
     background-color: rgba(0,0,0,0.5) !important;
@@ -71,6 +71,11 @@ input:focus{
 @media only screen and (max-width: 450px){
     .box{
         width : 300px;
+    }
+    body{
+        background-image: url("https://cdn.pixabay.com/photo/2022/03/02/10/58/flowers-7042890_640.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
