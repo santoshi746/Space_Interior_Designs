@@ -79,6 +79,17 @@ input:focus{
         padding: 30px;
     }
 }
+@media only screen and (max-width:767px){
+    .box{
+        width : 350px;
+        height: 330px;
+    }
+    form{
+        width: 320px;
+        height: 300px;
+        padding: 30px;
+    }
+}
 @media only screen and (max-width: 450px){
     .box{
         width : 300px;
